@@ -1,9 +1,13 @@
 {
+    "name": "not-hot-dog",
+    "engines": {
+        "node": "16.13.0"
+    },
     "scripts": {
         "client": "npm start --prefix client",
         "server": "NODE_ENV=development cd server/ && nodemon server.js",
         "dev": "concurrently --raw \"npm run server\" \"npm run client\"",
-        "post": "npm install concurrently --save && npm --prefix client install && npm --prefix server install",
+        "post": "npm install concurrently --save && npm --prefix client ci && npm --prefix server ci",
         "p": "npm run post",
         "build": "npm run build --prefix client",
         "audit": "npm audit fix && npm --prefix client audit fix && npm --prefix server audit fix",
