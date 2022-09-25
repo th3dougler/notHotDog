@@ -28,7 +28,7 @@ A platform for businesses to create coupons, giftcards, and event tickets and di
 
 # Getting Started (Deployed):
 
-# [Click Here To Open Live Demo](https://hotnotdog.herokuapp.com)
+# [Click Here To Open Live Demo](https://nothotdog.fly.dev/)
 
 ## Register an account and log in as either a business or a user:
 
